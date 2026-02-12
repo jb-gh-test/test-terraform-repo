@@ -1,12 +1,3 @@
-removed {
-  from   = component.example
-  source = "./modules/component1"
-
-  providers = {
-    null = provider.null.this
-  }
-}
-
 component "component1" {
   source = "./modules/component1"
   providers = {
