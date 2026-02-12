@@ -1,15 +1,7 @@
-component "example" {
-  source = "./modules/component1"
-  inputs = {}
-  providers = {
-    null = provider.null.this
-  }
-}
-
 removed {
   from   = component.example
   source = "./modules/component1"
-  inputs = {}
+
   providers = {
     null = provider.null.this
   }
@@ -17,7 +9,6 @@ removed {
 
 component "component1" {
   source = "./modules/component1"
-  inputs = {}
   providers = {
     null = provider.null.this
   }
